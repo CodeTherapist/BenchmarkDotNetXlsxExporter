@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\Shared.props"/>
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.0;NET48</TargetFrameworks>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BenchmarkDotNet.Exporters.Xlsx\BenchmarkDotNet.Exporters.Xlsx.csproj" />
+    <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
+  </ItemGroup>
+</Project>

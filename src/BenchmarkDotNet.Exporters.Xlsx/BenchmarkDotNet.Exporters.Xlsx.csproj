@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\Shared.props" />
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>BenchmarkDotNet.Exporters.Xlsx</AssemblyName>
+    <AssemblyTitle>BenchmarkDotNet.Exporters.Xlsx</AssemblyTitle>
+    <PackageId>BenchmarkDotNetXlsxExporter</PackageId>
+    <Product>BenchmarkDotNet xlsx exporter</Product>
+    <Description>BenchmarkDotNet extension to export benchmark results as xlsx file.</Description>
+    <PackageTags>benchmarkdotnet;benchmark;benchmarking;performance;exporter;OpenXML;xlsx;</PackageTags>    
+    <PackageProjectUrl>https://github.com/CodeTherapist/BenchmarkDotNetXlsxExporter</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/CodeTherapist/BenchmarkDotNetXlsxExporter</RepositoryUrl>
+    <ProjectUrl>https://benchmarkdotnet.org/</ProjectUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.10.1" />
+  </ItemGroup>
+</Project>
