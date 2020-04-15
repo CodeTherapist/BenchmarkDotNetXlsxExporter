@@ -88,10 +88,11 @@ public class Program
 }
 ```
 
-## Contribution
+**A example of the exporter output: [ConsoleApp.MyBenchmarks.Md5VsSha256-report.xlsx](ConsoleApp.MyBenchmarks.Md5VsSha256-report.xlsx).**
 
-Any help is appreciated :)
-Feel free to do pull requests for any kind of improvements, ask questions or just leave a "star" when you find it useful.
+## Contribution - Any help is appreciated
+
+Feel free to do pull requests for any kind of improvements, ask questions or just :star this repository when you find it useful.
 
 ### Solution
 
@@ -112,7 +113,9 @@ _ConsoleApp_ is an example/playground how the exporter can be used.
 ### Tests & Code Coverage
 
 Unit Testing is done with [xUnit](https://github.com/xunit/xunit).
+
 Code coverage is done with [Coverlet](https://github.com/tonerdo/coverlet).
+
 Code coverage reports is done with [ReportGenerator](https://github.com/danielpalme/ReportGenerator).
 
 **Code Coverage statistic**
@@ -122,7 +125,9 @@ Code coverage reports is done with [ReportGenerator](https://github.com/danielpa
 | BenchmarkDotNet.Exporters.Xlsx | 82,44% | 73,86% | 86,53% |
 
 Executing unit tests will trigger code coverage and report generation.
+
 The code coverage result is stored in `.\artifacts\tests\coverage` (format is [OpenCover](https://github.com/OpenCover/opencover)).
+
 The graphical code coverage reports are stored in `.\artifacts\tests\coverage\reports` and history in `.\artifacts\tests\coverage\reports\history`.
 
 ## Build, Test & Pack

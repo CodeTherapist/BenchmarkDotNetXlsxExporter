@@ -5,7 +5,7 @@ using BenchmarkDotNet.Exporters.Xlsx;
 using BenchmarkDotNet.Jobs;
 using BenchmarkDotNet.Running;
 
-namespace ConsoleApp1
+namespace ConsoleApp
 { 
     namespace MyBenchmarks
     {
